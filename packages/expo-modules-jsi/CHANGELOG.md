@@ -9,6 +9,7 @@
 ### 🐛 Bug fixes
 
 - [iOS] Propagate `JavaScriptPromise` setup failures instead of trapping the app. ([#46106](https://github.com/expo/expo/issues/46106) by [@qutrek](https://github.com/qutrek)) ([#46145](https://github.com/expo/expo/pull/46145) by [@mvincentong](https://github.com/mvincentong))
+- [iOS] Clear stale build intermediates before rebuilding xcframework slices to avoid compiler errors. ([#46399](https://github.com/expo/expo/pull/46399) by [@alanjhughes](https://github.com/alanjhughes))
 
 ### 💡 Others
 
